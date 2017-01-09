@@ -1,0 +1,15 @@
+def invoice():
+    fname = input("Enter your First Name: ")
+    mname = input("Enter your Middle Name: ")
+    lname = input("Enter your Last Name: ")
+    city = input("City: ")
+    state = input("State: ")
+    staddress = input("Street address: ")
+    zcode =  input("Zip Code: ")
+    product = input("Laptop Name: ")
+    price = input("Laptop price: $")
+    quantity = input("Number of Laptops: ")
+    tp = int(price)*int(quantity)
+    print("Inovice Details: \nFirst Name: ",fname,"\nMiddle Name: ",mname,"\nLast Name: ",lname,"\nCity: ",city,"\nState: ",state,"\nStreet Address: ",staddress,"\nZip Code: ",zcode,"\nLaptop Name:",product,"\n\nTotal Quantity: ",quantity,"\nPrice of each product: $",price,"\nTotal Price: $",tp )
+
+invoice()
